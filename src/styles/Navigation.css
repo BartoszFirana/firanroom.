@@ -1,0 +1,43 @@
+nav.navigation {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+nav.navigation li {
+    display: inline-block;
+}
+
+nav.navigation ul {
+    padding: 0px;
+    margin: 5px 20px 5px 20px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    max-height: 50px;
+}
+
+nav.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 1px;
+    margin: 0px 15px;
+    transition: .2s;
+    color: black;
+    font-weight: 500;
+}
+
+nav.navigation a:hover {
+    transform: translateY(4px);
+}
+
+nav.navigation a.active {
+    border-bottom: solid 2px black;
+}
+
+img.logo {
+    max-height: 40px;
+    vertical-align: middle;
+}

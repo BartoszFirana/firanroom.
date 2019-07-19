@@ -1,0 +1,18 @@
+div.blog-container {
+    display: flex;
+    width: 60vw;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+
+aside {
+    min-width: 10vw;
+}
+
+section {
+    flex-grow: 1;
+}
+
+article {
+    padding: 10px 0;
+}

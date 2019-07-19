@@ -1,0 +1,27 @@
+div.app {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  z-index: 9999;
+  position: fixed;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px 0;
+  text-align: center;
+  min-height: 100vh;
+}
+
+section.page {
+  min-height: 100vh;
+}
