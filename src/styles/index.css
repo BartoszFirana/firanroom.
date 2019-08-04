@@ -5,8 +5,11 @@
 }
 
 html {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 300;
+}
+button {
+  outline: none;
 }
 
 h1,

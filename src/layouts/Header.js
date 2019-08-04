@@ -23,9 +23,9 @@ const Header = () => {
                 <Route path="/" exact render={() => (
                     <header style={headerL}>
                         <div className="hello-container">
-                            <h1 style={{ fontWeight: "bold", fontSize: 80 }}>Hello World,</h1>
+                            <h1>Hello World,</h1>
                             <h3>my name is Bartek. Welcome on my own website</h3>
-                            <button>about me</button>
+                            <button className="layout__button">about me</button>
                         </div>
                         <img className="firana" src={autoportret2} alt="firana" />
                         <img className="background" src={firanaHeader} alt="header"></img>

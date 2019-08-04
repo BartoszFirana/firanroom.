@@ -6,23 +6,26 @@ import Navigation from './Navigation';
 import Page from './Page';
 import Footer from './Footer';
 
-function App() {
-  return (
-    <Router>
-      <div className="app">
-        <nav className="general-nav">
-          {<Navigation />}
-        </nav>
-        {<Header />}
-        <section className="page">
-          {<Page />}
-        </section>
-        <footer>
-          {<Footer />}
-        </footer>
-      </div>
-    </Router>
-  );
+
+class App extends React.Component {
+  render() {
+    return (
+      <Router>
+        <div className="app">
+          <nav className="general-nav">
+            {<Navigation />}
+          </nav>
+          {<Header />}
+          <section className="page">
+            {<Page />}
+          </section>
+          <footer>
+            {<Footer />}
+          </footer>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;

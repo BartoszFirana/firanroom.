@@ -1,55 +1,81 @@
 header {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 header img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    min-width: 100%;
-    min-height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
 }
 
 img.firana {
-    align-content: right;
-    z-index: 9997;
-    max-height: 90vh;
-    top: 50%;
-    left: 70%;
+  align-content: right;
+  z-index: 9997;
+  max-height: 90vh;
+  top: 50%;
+  left: 70%;
 }
 
 img.background {
-    z-index: 9996;
+  z-index: 9996;
 }
 
 .hello-container {
-    display: block;
-    z-index: 9998;
-    max-width: 550px;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    transform: translate(-50%, -50%);
+  display: block;
+  z-index: 9998;
+  max-width: 550px;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+}
+.hello-container h1 {
+  font-size: 80px;
 }
 
-button {
-    font-family: 'Quicksand', sans-serif;
-    background-color: #000;
-    color: white;
-    border: none;
-    padding: 10px 25px;
-    border-radius: 28px;
-    font-size: 1.2em;
-    margin: 15px 0;
-    -webkit-box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
-    -moz-box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
-    box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
-    cursor: pointer;
-    transition: .2s;
+.layout__button {
+  font-family: "Quicksand", sans-serif;
+  background-color: #000;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 28px;
+  font-size: 1.2em;
+  margin: 15px 0;
+  -webkit-box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
+  -moz-box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
+  box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
+  cursor: pointer;
+  transition: 0.2s;
 }
 
 button:hover {
-    transform: translateY(4px);
+  transform: translateY(4px);
+}
+
+@media (max-width: 1200px) {
+  img.firana {
+    width: 1vw;
+    top: 77vh;
+    left: 59vw;
+  }
+  .hello-container {
+    display: block;
+    z-index: 9998;
+    position: absolute;
+    width: 80%;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .hello-container h1 {
+    font-size: 50px;
+  }
+  .hello-container h3 {
+    font-size: 22px;
+  }
 }
