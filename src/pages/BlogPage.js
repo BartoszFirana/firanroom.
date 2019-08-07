@@ -34,9 +34,6 @@ const BlogPage = () => {
 
     return (
         <div className="blog-container">
-            <aside>
-                #hashtag
-            </aside>
             <section>
                 {articlesList}
             </section>

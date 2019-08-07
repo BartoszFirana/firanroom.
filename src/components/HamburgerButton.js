@@ -6,18 +6,10 @@ class HamburgerButton extends Component {
         super(props)
 
         this.state = {
-            toggle: false
         }
     }
-    propsHandle(props) {
-        this.setState.toggle({ toggle: !this.props.toggle })
-    }
 
-    handleClick() {
-        this.setState({ toggle: !this.state.toggle })
-    }
-
-    render() {
+    render(props) {
         const style = {
             overflow: 'visible',
             cursor: 'pointer',
@@ -30,13 +22,12 @@ class HamburgerButton extends Component {
                 <svg
                     viewBox="0 0 96 96"
                     height="2.5em"
-                    onClick={this.handleClick.bind(this)}
                     style={style}
                 >
                     <Motion
                         style={{
-                            x: spring(this.state.toggle ? 1 : 0, presets.wobbly),
-                            y: spring(this.state.toggle ? 0 : 1, presets.wobbly),
+                            x: spring(this.props.toggle ? 1 : 0, presets.wobbly),
+                            y: spring(this.props.toggle ? 0 : 1, presets.wobbly),
                         }}
                     >
                         {({ x, y }) =>

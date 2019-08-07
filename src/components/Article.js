@@ -4,6 +4,7 @@ const Article = ({ title, author, date, text }) => {
     const styles = {
         fontSize: 12,
         justifyContent: 'space-between',
+        maxWidth: '100vw',
         display: 'flex',
         padding: '10px 0',
     };
