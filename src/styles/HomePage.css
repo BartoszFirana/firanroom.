@@ -1,0 +1,35 @@
+.web__page {
+}
+
+.web__container {
+  position: relative;
+  z-index: 9999;
+  left: 50%;
+  background: #fff;
+  width: 92%;
+  max-width: 1600px;
+  min-height: 150px;
+  transition: 0.5s;
+}
+
+.web__container--about {
+  padding: 5% 10%;
+}
+
+h2.web_container--title::before {
+  content: ",,";
+  position: fixed;
+  font-size: 8em;
+  font-weight: 500;
+  transform: translate(-70px, -260px);
+  opacity: 0.1;
+}
+
+p.web_container--paragraph::after {
+  content: ",,";
+  position: fixed;
+  font-size: 8em;
+  font-weight: 500;
+  transform: translate(-20px, -130px);
+  opacity: 0.1;
+}

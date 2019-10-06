@@ -3,9 +3,7 @@ import { Route, Switch } from 'react-router-dom';
 
 import "../styles/Header.css"
 
-import header1 from '../images/header1.jpg';
-import header2 from '../images/header2.jpg';
-import header3 from '../images/header3.jpg';
+import background from '../images/background.svg';
 import firanaHeader from '../images/firanaHeader.svg';
 import autoportret2 from '../images/autoportret2.svg';
 
@@ -33,32 +31,32 @@ const Header = () => {
                 )} />
                 <Route path="/blog" render={() => (
                     <header style={headerS}>
-                        <img src={header3} alt="header3"></img>
+                        <img src={background} alt="header3"></img>
                     </header>
                 )} />
                 <Route path="/cv" render={() => (
                     <header style={headerS}>
-                        <img src={header2} alt="header2"></img>
+                        <img src={background} alt="header2"></img>
                     </header>
                 )} />
                 <Route path="/portfolio" render={() => (
                     <header style={headerS}>
-                        <img src={header3} alt="header3"></img>
+                        <img src={background} alt="header3"></img>
                     </header>
                 )} />
                 <Route path="/contact" render={() => (
                     <header style={headerS}>
-                        <img src={header1} alt="header1"></img>
+                        <img src={background} alt="header1"></img>
                     </header>
                 )} />
                 <Route path="/panel" render={() => (
                     <header style={headerS}>
-                        <img src={header2} alt="header2"></img>
+                        <img src={background} alt="header2"></img>
                     </header>
                 )} />
                 <Route render={() => (
                     <header style={headerS}>
-                        <img src={header3} alt="header3"></img>
+                        <img src={background} alt="header3"></img>
                     </header>
                 )} />
             </Switch>

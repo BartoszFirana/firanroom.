@@ -19,9 +19,10 @@ footer {
   color: white;
   padding: 10px 0;
   text-align: center;
-  min-height: 100vh;
+  min-height: 50vh;
 }
 
 section.page {
   min-height: 100vh;
+  background: #eaeaea;
 }
