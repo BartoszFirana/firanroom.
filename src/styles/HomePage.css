@@ -3,7 +3,7 @@
 
 .web__container {
   position: relative;
-  z-index: 9999;
+  z-index: 9998;
   left: 50%;
   background: #fff;
   width: 92%;

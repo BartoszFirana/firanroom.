@@ -1,0 +1,30 @@
+.footer__copyrighter {
+  text-align: center;
+  font-size: 0.7rem;
+  color: #e0e0e0;
+  padding: 10px;
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-gap: 10px 40px;
+  padding: 20px 10%;
+}
+
+.footer__item {
+  min-height: 110px;
+  display: grid;
+  grid-template-rows: 40px 1fr;
+}
+
+.footer__item--border {
+  border-right: 1px solid #0c0c0c;
+}
+
+ul.footer__list {
+  list-style: none;
+  text-decoration: none;
+  font-size: 0.9rem;
+  line-height: 1.4rem;
+}
