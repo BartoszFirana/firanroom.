@@ -7,7 +7,7 @@
 
 .footer__container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 3fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   grid-gap: 10px 40px;
   padding: 20px 10%;
 }
