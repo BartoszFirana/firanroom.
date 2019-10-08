@@ -10,7 +10,7 @@ class Technology extends Component {
         return (
             <div className="technology__item">
                 <div className="technology__item--header">
-                    <img src={this.props.logo} className="technology__item--logo"></img>
+                    <img src={this.props.logo} alt={this.props.title} className="technology__item--logo"></img>
                 </div>
                 <div className="technology__item--content">
                     <h4>{this.props.title}</h4>

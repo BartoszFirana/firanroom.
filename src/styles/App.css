@@ -25,3 +25,19 @@ section.page {
   min-height: 10vh;
   background: #eaeaea;
 }
+
+.web__container,
+.web__container--notanim {
+  position: relative;
+  z-index: 9998;
+  left: 50%;
+  background: #fff;
+  width: 92%;
+  max-width: 1600px;
+  min-height: 150px;
+  transition: 0.5s;
+}
+
+.web__container--notanim {
+  transform: translate(-50%, -100px);
+}

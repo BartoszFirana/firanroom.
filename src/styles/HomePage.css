@@ -1,22 +1,8 @@
-.web__page {
-}
-
-.web__container {
-  position: relative;
-  z-index: 9998;
-  left: 50%;
-  background: #fff;
-  width: 92%;
-  max-width: 1600px;
-  min-height: 150px;
-  transition: 0.5s;
-}
-
 .web__container--about {
   padding: 5% 10%;
 }
 
-h2.web_container--title::before {
+h2.web_about--title::before {
   content: ",,";
   position: fixed;
   font-size: 8em;
@@ -25,7 +11,7 @@ h2.web_container--title::before {
   opacity: 0.1;
 }
 
-p.web_container--paragraph::after {
+p.web_about--paragraph::after {
   content: ",,";
   position: fixed;
   font-size: 8em;
