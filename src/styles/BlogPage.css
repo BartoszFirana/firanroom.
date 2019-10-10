@@ -24,6 +24,7 @@ article {
 .blog__item--header {
   height: 120px;
   overflow: hidden;
+  background: #f5f5f5;
 }
 
 .blog__item--header > img {

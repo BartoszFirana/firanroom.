@@ -1,19 +1,9 @@
-div.contact {
-  display: flex;
-  width: 60vw;
-  margin: 0 auto;
-  padding: 60px 0;
+.contact {
+  width: 100%;
 }
 
 .contact textarea {
-  width: 60%;
-  min-height: 220px;
-}
-
-.contact section {
-  flex-grow: 1;
-}
-
-.contact aside {
-  min-width: 10vw;
+  justify-content: center;
+  align-content: center;
+  min-width: 80%;
 }

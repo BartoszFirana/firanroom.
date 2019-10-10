@@ -10,10 +10,6 @@ nav {
   position: fixed;
 }
 
-main {
-  flex-grow: 1;
-}
-
 footer {
   background-color: black;
   color: white;
@@ -23,6 +19,7 @@ footer {
 
 section.page {
   min-height: 10vh;
+  flex-grow: 1;
   background: #eaeaea;
 }
 
