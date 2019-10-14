@@ -1,0 +1,21 @@
+.login {
+}
+
+.login__container {
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  max-width: 360px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.login__container > h3 {
+  text-align: left;
+  padding: 20px 0px 10px 10px;
+}
+
+.login__form {
+  position: relative;
+}

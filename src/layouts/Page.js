@@ -7,6 +7,7 @@ import CvPage from '../pages/CvPage';
 import PortfolioPage from '../pages/PortfolioPage';
 import ContactPage from '../pages/ContactPage';
 import PanelPage from '../pages/PanelPage';
+import LoginPage from '../pages/LoginPage';
 import ErrorPage from '../pages/ErrorPage';
 
 
@@ -27,6 +28,7 @@ class Page extends Component {
                     <Route path="/portfolio" exact component={PortfolioPage} />
                     <Route path="/contact" exact component={ContactPage} />
                     <Route path="/panel" exact component={PanelPage} />
+                    <Route path="/login" exact component={LoginPage} />
                     <Route component={ErrorPage} />
                 </Switch>
             </>

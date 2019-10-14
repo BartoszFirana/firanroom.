@@ -39,26 +39,6 @@ img.background {
   font-weight: bold;
 }
 
-.layout__button {
-  font-family: "Quicksand", sans-serif;
-  background-color: #000;
-  color: white;
-  border: none;
-  padding: 10px 25px;
-  border-radius: 28px;
-  font-size: 1.2em;
-  margin: 15px 0;
-  -webkit-box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
-  -moz-box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
-  box-shadow: 11px 13px 24px -16px rgba(0, 0, 0, 0.79);
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-button:hover {
-  transform: translateY(4px);
-}
-
 @media (max-width: 1200px) {
   img.firana {
     width: 1vw;
