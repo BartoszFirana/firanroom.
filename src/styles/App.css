@@ -72,3 +72,7 @@ section.page {
 .layout__form--input:focus {
   border-left: 2px solid black;
 }
+
+textarea {
+  resize: none;
+}

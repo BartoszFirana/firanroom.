@@ -67,6 +67,26 @@
   transform: translate(-50%, 12%);
 }
 
+.hamburger__footer {
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  max-height: 35vh;
+  text-align: center;
+  font-size: 0.7rem;
+  color: #989898;
+}
+
+.hamburger__footer > img {
+  max-width: 40px !important;
+  margin: 5px;
+  opacity: 0.7;
+}
+
+.hamburger__footer > p {
+  padding: 10px;
+}
+
 @media (max-width: 349px) {
   .logo__animation--one {
     transition: 0.3s;

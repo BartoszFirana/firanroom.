@@ -3,6 +3,7 @@ import { NavLink } from 'react-router-dom';
 import '../styles/HamburgerMenu.css';
 import HamburgerButton from './HamburgerButton';
 import MobileLogo from '../components/MobileLogo';
+import HamburgerMenuItems from '../components/HamburgerMenuItems';
 
 class HamburgerMenu extends Component {
     constructor(props) {
@@ -15,7 +16,9 @@ class HamburgerMenu extends Component {
     handleClick() {
         this.setState({ toggle: !this.state.toggle })
     }
+
     render() {
+
 
         const list = [
             { name: 'home', path: '/', exact: true },
@@ -45,6 +48,7 @@ class HamburgerMenu extends Component {
                         <ul className="hamburger__menu--list">
                             {menu}
                         </ul>
+                        <HamburgerMenuItems />
                     </div>
                 ) : (
                         <></>

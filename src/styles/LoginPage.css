@@ -1,14 +1,14 @@
-.login {
-}
-
 .login__container {
   text-align: center;
   padding: 20px;
   width: 100%;
-  max-width: 360px;
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
+}
+
+.login__container.login__container--width {
+  max-width: 360px;
 }
 
 .login__container > h3 {

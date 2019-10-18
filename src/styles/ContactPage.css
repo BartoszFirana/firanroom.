@@ -7,3 +7,12 @@
   align-content: center;
   min-width: 80%;
 }
+
+.login__container.layout__email {
+  max-width: 900px;
+}
+
+.layout__form--input.layout__email {
+  height: 180px;
+  padding: 20px;
+}

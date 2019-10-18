@@ -1,5 +1,6 @@
 .web__container--about {
   padding: 5% 10%;
+  border-bottom: 1px solid #ececec;
 }
 
 h2.web_about--title::before {
