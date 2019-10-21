@@ -5,6 +5,7 @@ import JSLogo from '../images/javascript_logo.svg'
 import ReactLogo from '../images/react_logo.svg'
 import NodeLogo from '../images/nodejs_logo.svg'
 import IllustratorLogo from '../images/illustrator_logo.svg'
+import Phone from '../images/phone.svg'
 
 class HomePage extends Component {
     constructor(props) {
@@ -57,6 +58,28 @@ class HomePage extends Component {
                         <Technology logo={ReactLogo} title="React.JS" text="Biblioteka React.JS jest na chwilę obecną moim ulubionych freamworkiem JS i cieszę się, że do zbudowania tego serwisu wybrałem właśnie tą technologię. Aplikacja stanowi aż 80% Reacta."></Technology>
                         <Technology logo={NodeLogo} title="Node.JS" text="Od początku mojej nauki odradzano mi dekoncentrowanie się innym stackiem technologicznym, jeżeli jeszcze nie poznałem tego w którym chcę pracować. Nie miałbym jednak satysfakcji bez własnej logiki backendowej na swojej stronie. Użyłem freamworka Express.JS."></Technology>
                         <Technology logo={IllustratorLogo} title="Adobe Illustrator" text="Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie."></Technology>
+                    </div>
+                    <div className="grid__twotemplate">
+                        <div className="grid__twotemplate--text grid__item--1"><img src={Phone} alt="phone" /></div>
+                        <div className="grid__twotemplate--text grid__item--2">
+                            <h3>Coś tam</h3>
+                            <p>Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie.</p>
+                        </div>
+                        <div className="grid__twotemplate--text grid__item--3"><img src={Phone} alt="phone" /></div>
+                        <div className="grid__twotemplate--text grid__item--4">
+                            <h3>Coś tam</h3>
+                            <p>Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie.</p>
+                        </div>
+                        <div className="grid__twotemplate--text grid__item--5"><img src={Phone} alt="phone" /></div>
+                        <div className="grid__twotemplate--text grid__item--6">
+                            <h3>Coś tam</h3>
+                            <p>Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie.</p>
+                        </div>
+                        <div className="grid__twotemplate--text grid__item--7"><img src={Phone} alt="phone" /></div>
+                        <div className="grid__twotemplate--text grid__item--8">
+                            <h3>Coś tam</h3>
+                            <p>Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie.</p>
+                        </div>
                     </div>
                 </div>
             </div>

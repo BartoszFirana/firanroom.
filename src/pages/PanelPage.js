@@ -2,7 +2,7 @@ import React from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import AdminPanel from '../components/AdminPanel';
 
-const permission = true;
+const permission = false;
 
 const PanelPage = () => {
     return (

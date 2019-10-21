@@ -87,7 +87,7 @@ const BlogPage = () => {
         <>
             <div className="web__container--notanim">
                 <div className="web__container--about">
-                    <h1>Follow my blog</h1>
+                    <h2>Follow my blog</h2>
                     <p>Zaglądaj na mojego bloga i śledź mój rozwój. Kto wie, może moje wpisy zainspirują Cię do czegoś.</p>
                 </div>
                 <section className="blog__container">

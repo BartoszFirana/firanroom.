@@ -20,3 +20,61 @@ p.web_about--paragraph::after {
   transform: translate(-20px, -130px);
   opacity: 0.1;
 }
+
+.grid__twotemplate {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-gap: 10px 40px;
+  padding: 40px;
+  align-items: center;
+  text-align: center;
+}
+
+.grid__twotemplate--text > img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 760px) {
+  .grid__twotemplate {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid__item--1,
+  .grid__item--4,
+  .grid__item--5,
+  .grid__item--8 {
+    grid-column: 1/2;
+  }
+
+  .grid__item--2,
+  .grid__item--3,
+  .grid__item--6,
+  .grid__item--7 {
+    grid-column: 2/3;
+  }
+
+  .grid__item--3 {
+    grid-row: 2/3;
+  }
+
+  .grid__item--4 {
+    grid-row: 2/3;
+  }
+
+  .grid__item--5 {
+    grid-row: 3/4;
+  }
+
+  .grid__item--6 {
+    grid-row: 3/4;
+  }
+
+  .grid__item--7 {
+    grid-row: 5/6;
+  }
+
+  .grid__item--8 {
+    grid-row: 5/6;
+  }
+}

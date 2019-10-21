@@ -5,7 +5,7 @@ const AdminPanel = () => {
         <>
             <div className="web__container--notanim">
                 <div className="web__container--about">
-                    <h1>Witaj w panelu administratora</h1>
+                    <h2>Witaj w panelu administratora</h2>
                     <p>W tym miejscu będzies mógł dodawać i modyfikować wpisy zamieszczone na blogu.</p>
                 </div>
                 <div className="login__container layout__email">
