@@ -47,3 +47,12 @@ img.logo {
   max-height: 40px;
   vertical-align: middle;
 }
+
+img.media {
+  width: 30px;
+  top: 50%;
+  position: relative;
+  margin-left: -10px;
+  margin-right: -10px;
+  transform: translate(0px, 8px);
+}

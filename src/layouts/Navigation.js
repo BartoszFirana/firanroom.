@@ -3,6 +3,9 @@ import HamburgerMenu from '../components/HamburgerMenu';
 import { NavLink } from 'react-router-dom';
 import '../styles/Navigation.css';
 import logo from '../images/logo_firanroom.svg';
+import instagramlogo from '../images/instagramlogo.svg';
+import linkedinlogo from '../images/linkedinlogo.svg';
+import githublogo from '../images/githublogo.svg';
 
 class Navigation extends Component {
     constructor(props) {
@@ -48,11 +51,14 @@ class Navigation extends Component {
                 {isDesktop ? (
                     <nav className="navigation">
                         <ul>
-                            <img className="logo" src={logo} alt="Logo firanroom" />
+                            <li><a href="/"><img className="logo" src={logo} alt="Logo firanroom" /></a></li>
                             {menu}
                         </ul>
                         <ul>
-                            <li><NavLink to="/panel">admin panel</NavLink></li>
+                            <li><NavLink to="/panel">sign in</NavLink></li>
+                            <li><a href="https://www.linkedin.com/in/bartosz-buczkowski-62a2bb17a/"><img className="media" src={linkedinlogo} alt="Logo linkedin" /></a></li>
+                            <li><a href="/"><img className="media" src={instagramlogo} alt="Logo instagram" /></a></li>
+                            <li><a href="https://github.com/BartoszFirana"><img className="media" src={githublogo} alt="Logo github" /></a></li>
                         </ul>
                     </nav>
                 ) : (

@@ -33,6 +33,7 @@ section.page {
   max-width: 1600px;
   min-height: 150px;
   transition: 0.5s;
+  border-radius: 40px;
 }
 
 .web__container--notanim {

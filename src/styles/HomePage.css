@@ -33,6 +33,8 @@ p.web_about--paragraph::after {
 .grid__twotemplate--text > img {
   max-width: 100%;
   overflow: hidden;
+  min-height: 300px;
+  max-height: 500px;
 }
 
 @media screen and (min-width: 760px) {

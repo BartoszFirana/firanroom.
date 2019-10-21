@@ -1,5 +1,5 @@
 import React from 'react';
-import { Route, Switch } from 'react-router-dom';
+import { NavLink, Route, Switch } from 'react-router-dom';
 
 import "../styles/Header.css"
 
@@ -23,7 +23,7 @@ const Header = () => {
                         <div className="hello-container">
                             <h1>Hello World,</h1>
                             <h3>my name is Bartek. Welcome on my own website</h3>
-                            <button className="layout__button">about me</button>
+                            <NavLink to="/blog"><button className="layout__button">Firan Blog</button></NavLink>
                         </div>
                         <img className="firana" src={autoportret2} alt="firana" />
                         <img className="background" src={firanaHeader} alt="header"></img>

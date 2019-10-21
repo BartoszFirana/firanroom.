@@ -17,6 +17,8 @@ const Footer = () => {
                             <li><NavLink to="/cv">cv</NavLink></li>
                             <li><NavLink to="/portfolio">portfolio</NavLink></li>
                             <li><NavLink to="/contact">contact</NavLink></li>
+                            <li><NavLink to="/panel">admin panel</NavLink></li>
+
                         </ul>
                     </div>
                 </div>
@@ -26,11 +28,11 @@ const Footer = () => {
                     </div>
                     <div className="footer__item--info">
                         <ul className="footer__list">
-                            <li>JavaScript/ES6</li>
-                            <li>React.JS</li>
-                            <li>Node.JS</li>
-                            <li>Express.JS</li>
-                            <li>MongoDB</li>
+                            <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">JavaScript/ES6</a></li>
+                            <li><a href="https://reactjs.org">React.JS</a></li>
+                            <li><a href="https://nodejs.org/en/">Node.JS</a></li>
+                            <li><a href="https://expressjs.com">Express.JS</a></li>
+                            <li><a href="https://www.mongodb.com">MongoDB</a></li>
                         </ul>
                     </div>
                 </div>
@@ -40,9 +42,9 @@ const Footer = () => {
                     </div>
                     <div className="footer__item--info">
                         <ul className="footer__list">
-                            <li>facebook</li>
-                            <li>instagram</li>
-                            <li>linked.in</li>
+                            <li><a href="https://facebook.com/">facebook</a></li>
+                            <li><a href="https://instagram.com/">instagram</a></li>
+                            <li><a href="https://www.linkedin.com/in/bartosz-buczkowski-62a2bb17a/">linked.in</a></li>
                         </ul>
                     </div>
                 </div>
@@ -54,7 +56,7 @@ const Footer = () => {
                         <ul className="footer__list">
                             <li>front-end developer</li>
                             <li>graphic designer</li>
-                            <li>github</li>
+                            <li><a href="https://github.com/BartoszFirana">github</a></li>
                         </ul>
                     </div>
                 </div>
