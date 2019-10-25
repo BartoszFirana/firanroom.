@@ -35,7 +35,6 @@ class Navigation extends Component {
         const list = [
             { name: 'home', path: '/', exact: true },
             { name: 'blog', path: '/blog' },
-            { name: 'cv', path: '/cv' },
             { name: 'portfolio', path: '/portfolio' },
             { name: 'contact', path: '/contact' },
         ]

@@ -11,7 +11,7 @@ const headerL = {
     flexBasis: "100vh",
 }
 const headerS = {
-    flexBasis: "40vh",
+    flexBasis: "45vh",
 }
 
 const Header = () => {
@@ -32,6 +32,7 @@ const Header = () => {
                 <Route path="/blog" render={() => (
                     <header style={headerS}>
                         <img src={background} alt="header3"></img>
+                        {/* <img className="blogimg" src={blog} alt="header"></img> */}
                     </header>
                 )} />
                 <Route path="/cv" render={() => (

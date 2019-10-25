@@ -55,7 +55,6 @@ const Footer = () => {
                     <div className="footer__item--info">
                         <ul className="footer__list">
                             <li>front-end developer</li>
-                            <li>graphic designer</li>
                             <li><a href="https://github.com/BartoszFirana">github</a></li>
                         </ul>
                     </div>

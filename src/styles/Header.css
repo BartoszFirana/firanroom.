@@ -10,7 +10,7 @@ header img {
   left: 50%;
   transform: translate(-50%, -50%);
   min-width: 100%;
-  min-height: 100%;
+  min-height: 101%;
 }
 
 img.firana {
@@ -45,6 +45,7 @@ img.background {
     top: 77vh;
     left: 59vw;
   }
+
   .hello-container {
     display: block;
     z-index: 9998;
