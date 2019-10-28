@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import Technology from '../components/Technology'
-import '../styles/HomePage.css'
-import JSLogo from '../images/javascript_logo.svg'
-import ReactLogo from '../images/react_logo.svg'
-import NodeLogo from '../images/nodejs_logo.svg'
-import IllustratorLogo from '../images/illustrator_logo.svg'
-import Phone from '../images/phone.svg'
+import Technology from '../components/Technology';
+import '../styles/HomePage.css';
+import JSLogo from '../images/javascript_logo.svg';
+import ReactLogo from '../images/react_logo.svg';
+import NodeLogo from '../images/nodejs_logo.svg';
+import IllustratorLogo from '../images/illustrator_logo.svg';
+import HomePic from '../images/home.svg';
+import HomePic2 from '../images/home2.svg'
 
 class HomePage extends Component {
     constructor(props) {
@@ -60,22 +61,22 @@ class HomePage extends Component {
                         <Technology logo={IllustratorLogo} title="Adobe Illustrator" text="Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie."></Technology>
                     </div>
                     <div className="grid__twotemplate">
-                        <div className="grid__twotemplate--text grid__item--1"><img src={Phone} alt="phone" /></div>
+                        <div className="grid__twotemplate--text grid__item--1"><img src={HomePic} alt="phone" /></div>
                         <div className="grid__twotemplate--text grid__item--2">
                             <h3>Coś tam</h3>
                             <p>Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie.</p>
                         </div>
-                        <div className="grid__twotemplate--text grid__item--3"><img src={Phone} alt="phone" /></div>
+                        <div className="grid__twotemplate--text grid__item--3"><img src={HomePic2} alt="phone" /></div>
                         <div className="grid__twotemplate--text grid__item--4">
                             <h3>Coś tam</h3>
                             <p>Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie.</p>
                         </div>
-                        <div className="grid__twotemplate--text grid__item--5"><img src={Phone} alt="phone" /></div>
+                        <div className="grid__twotemplate--text grid__item--5"><img src={HomePic} alt="phone" /></div>
                         <div className="grid__twotemplate--text grid__item--6">
                             <h3>Coś tam</h3>
                             <p>Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie.</p>
                         </div>
-                        <div className="grid__twotemplate--text grid__item--7"><img src={Phone} alt="phone" /></div>
+                        <div className="grid__twotemplate--text grid__item--7"><img src={HomePic} alt="phone" /></div>
                         <div className="grid__twotemplate--text grid__item--8">
                             <h3>Coś tam</h3>
                             <p>Z wykształcenia jestem grafikiem komputerowym. Dla mnie naturalne było, że moja aplikacja webowa przedstawiająca umiejętności front-endowe musi zawierać również dobrą grafikę komputerową. Pliki SVG przygotowane zostały w Illustratorze przeze mnie.</p>

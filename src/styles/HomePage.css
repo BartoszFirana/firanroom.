@@ -1,6 +1,7 @@
 .web__container--about {
   padding: 5% 10%;
   border-bottom: 1px solid #ececec;
+  text-align: center;
 }
 
 h2.web_about--title::before {
@@ -12,20 +13,11 @@ h2.web_about--title::before {
   opacity: 0.1;
 }
 
-p.web_about--paragraph::after {
-  content: ",,";
-  position: fixed;
-  font-size: 8em;
-  font-weight: 500;
-  transform: translate(-20px, -130px);
-  opacity: 0.1;
-}
-
 .grid__twotemplate {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-gap: 10px 40px;
-  padding: 20px 70px 70px 70px;
+  padding: 20px 15px 70px 15px;
   align-items: center;
   text-align: center;
 }
@@ -40,6 +32,7 @@ p.web_about--paragraph::after {
 @media screen and (min-width: 760px) {
   .grid__twotemplate {
     grid-template-columns: repeat(2, 1fr);
+    padding: 20px 70px 70px 70px;
   }
 
   .grid__item--1,
