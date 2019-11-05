@@ -1,7 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+
 import HamburgerMenu from '../components/HamburgerMenu';
 import { NavLink } from 'react-router-dom';
+
 import '../styles/Navigation.css';
+
 import logo from '../images/logo_firanroom.svg';
 import instagramlogo from '../images/instagramlogo.svg';
 import linkedinlogo from '../images/linkedinlogo.svg';
@@ -29,7 +33,23 @@ class Navigation extends Component {
         this.setState({ isDesktop: window.innerWidth > 900 });
     }
 
+    renderContent() {
+        switch (this.props.auth) {
+            case null:
+                return 'Still deciding';
+            case false:
+                return (
+                    <li><NavLink to="/panel">sign in</NavLink></li>
+                );
+            default:
+                return (
+                    <li><a href="/api/logout">logout</a></li>
+                );
+        }
+    }
+
     render() {
+
         const isDesktop = this.state.isDesktop;
 
         const list = [
@@ -54,7 +74,7 @@ class Navigation extends Component {
                             {menu}
                         </ul>
                         <ul>
-                            <li><NavLink to="/panel">sign in</NavLink></li>
+                            {this.renderContent()}
                             <li><a href="https://www.linkedin.com/in/bartosz-buczkowski-62a2bb17a/"><img className="media" src={linkedinlogo} alt="Logo linkedin" /></a></li>
                             <li><a href="/"><img className="media" src={instagramlogo} alt="Logo instagram" /></a></li>
                             <li><a href="https://github.com/BartoszFirana"><img className="media" src={githublogo} alt="Logo github" /></a></li>
@@ -70,4 +90,8 @@ class Navigation extends Component {
     }
 }
 
-export default Navigation;
+function mapStateToProps({ auth }) {
+    return { auth };
+}
+
+export default connect(mapStateToProps)(Navigation);

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b024b425.chunk.css",
+    "main.js": "/static/js/main.09e89d66.chunk.js",
+    "main.js.map": "/static/js/main.09e89d66.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.6c51601d.chunk.js": "/static/js/2.6c51601d.chunk.js",
+    "static/js/2.6c51601d.chunk.js.map": "/static/js/2.6c51601d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.74cf0e67181ba3c68bcf4d23b6a3bacb.js": "/precache-manifest.74cf0e67181ba3c68bcf4d23b6a3bacb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.b024b425.chunk.css.map": "/static/css/main.b024b425.chunk.css.map",
+    "static/media/autoportret2.svg": "/static/media/autoportret2.0637e00c.svg",
+    "static/media/background.svg": "/static/media/background.d0b9bead.svg",
+    "static/media/firanaHeader.svg": "/static/media/firanaHeader.79893851.svg",
+    "static/media/github.svg": "/static/media/github.9b137e2a.svg",
+    "static/media/githublogo.svg": "/static/media/githublogo.277dfdbc.svg",
+    "static/media/home.svg": "/static/media/home.2e3d72b9.svg",
+    "static/media/home2.svg": "/static/media/home2.529ea062.svg",
+    "static/media/illustrator_logo.svg": "/static/media/illustrator_logo.dbec34b2.svg",
+    "static/media/instagramlogo.svg": "/static/media/instagramlogo.4aa098a6.svg",
+    "static/media/javascript_logo.svg": "/static/media/javascript_logo.ac2be05e.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.3a58bde9.svg",
+    "static/media/linkedinlogo.svg": "/static/media/linkedinlogo.7e6659a0.svg",
+    "static/media/logo_firanroom.svg": "/static/media/logo_firanroom.45e07003.svg",
+    "static/media/mobile_logo_firanroom.svg": "/static/media/mobile_logo_firanroom.77edaeae.svg",
+    "static/media/mobile_logotype_firanroom.svg": "/static/media/mobile_logotype_firanroom.a7a4f8ac.svg",
+    "static/media/nodejs_logo.svg": "/static/media/nodejs_logo.9894c62d.svg",
+    "static/media/react_logo.svg": "/static/media/react_logo.f444d995.svg"
+  }
+}

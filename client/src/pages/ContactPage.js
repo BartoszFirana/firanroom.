@@ -27,11 +27,11 @@ class ContactPage extends React.Component {
                     <section>
                         <div className="login__container layout__email">
                             <h3>Formularz kontaktowy</h3>
-                            <from className="login__form">
+                            <form className="login__form">
                                 <input className="layout__form--input" type="email" placeholder="e-mail@example.com" ></input>
                                 <textarea className="layout__form--input layout__email" name="text" value={this.state.value} onChange={this.handleChange} placeholder="Napisz wiadomość..."></textarea>
-                                <button class="layout__button">Wyślij</button>
-                            </from >
+                                <button className="layout__button">Wyślij</button>
+                            </form >
                         </div>
                     </section>
                 </div>

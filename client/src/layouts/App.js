@@ -1,6 +1,10 @@
 import React from "react";
 import '../styles/App.css';
+
 import { BrowserRouter as Router } from 'react-router-dom'
+import { connect } from 'react-redux';
+import * as actions from '../actions';
+
 import Header from './Header';
 import Navigation from './Navigation';
 import Page from './Page';
@@ -8,6 +12,9 @@ import Footer from './Footer';
 
 
 class App extends React.Component {
+  componentDidMount() {
+    this.props.fetchUser();
+  }
 
   render() {
     return (
@@ -29,4 +36,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default connect(null, actions)(App);

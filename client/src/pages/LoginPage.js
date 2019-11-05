@@ -7,11 +7,14 @@ const LoginPage = () => {
             <div className="web__container--notanim">
                 <div className="login__container login__container--width">
                     <h3>Zaloguj się</h3>
-                    <from className="login__form">
+                    <form className="login__form">
                         <input className="layout__form--input" type="text" placeholder="login" ></input>
                         <input className="layout__form--input" type="password" placeholder="hasło" ></input>
-                        <button class="layout__button">Zaloguj</button>
-                    </from >
+                        <button className="layout__button">Zaloguj</button>
+                    </form >
+                    <div className="signin__">
+                        <a href="/auth/google" className="signin__button">Sign In wi th Google</a>
+                    </div>
                 </div>
             </div >
         </>
