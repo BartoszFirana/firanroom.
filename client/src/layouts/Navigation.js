@@ -70,7 +70,7 @@ class Navigation extends Component {
                 {isDesktop ? (
                     <nav className="navigation">
                         <ul>
-                            <li><a href="/"><img className="logo" src={logo} alt="Logo firanroom" /></a></li>
+                            <li><NavLink to="/"><img className="logo" src={logo} alt="Logo firanroom" /></NavLink></li>
                             {menu}
                         </ul>
                         <ul>

@@ -39,7 +39,6 @@ nav.navigation a:hover {
 }
 
 nav.navigation a.active {
-  border-bottom: solid 2px black;
   font-weight: bold;
 }
 
